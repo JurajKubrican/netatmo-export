@@ -1,0 +1,8 @@
+{
+  "env": {
+    "NETATMO_CLIENT_ID": "@netatmo-client-id",
+    "NETATMO_CLIENT_SECRET": "@netatmo-client-secret",
+    "NETATMO_USERNAME": "@netatmo-username",
+    "NETATMO_PASSWORD": "@netatmo-password"
+  }
+}
