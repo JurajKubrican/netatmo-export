@@ -1,3 +1,4 @@
+export const schema = `
 type WeatherStation {
   id: ID!
   station_name: String!
@@ -11,3 +12,4 @@ type WeatherStation {
 type Query {
   weatherStations: [WeatherStation!]!
 }
+`;

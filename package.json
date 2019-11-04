@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --watch \"src/**/*.ts\" --exec ts-node ./src/index.ts",
-    "start": "ts-node ./src/index.ts",
+    "start": "node ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "gql-gen": "graphql-codegen --config codegen.yml"
   },
@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/node": "^12.12.5",
     "@types/node-fetch": "^2.5.3",
-    "apollo-server": "^2.9.7",
+    "apollo-server-micro": "^2.9.7",
     "dotenv": "^8.2.0",
     "env-var": "^5.1.0",
     "form-data": "^2.5.1",
