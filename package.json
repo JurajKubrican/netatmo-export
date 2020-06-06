@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/node": "^12.12.5",
     "@types/node-fetch": "^2.5.3",
-    "apollo-server-micro": "^2.9.7",
+    "apollo-server-micro": "^2.14.2",
     "dotenv": "^8.2.0",
     "env-var": "^5.1.0",
     "form-data": "^2.5.1",
