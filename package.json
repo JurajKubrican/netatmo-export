@@ -20,7 +20,7 @@
     "env-var": "^5.1.0",
     "form-data": "^2.5.1",
     "merge-graphql-schemas": "^1.7.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.19.4",
     "path": "^0.12.7",
     "ts-node": "^8.4.1",
